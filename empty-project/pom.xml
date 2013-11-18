@@ -14,7 +14,6 @@
         <extensions>true</extensions>
         <version>1.0-SNAPSHOT</version>
         <configuration>
-          <!--<installshieldExecutable>...</installshieldExecutable>-->
         </configuration>
       </plugin>
     </plugins>
