@@ -1,0 +1,28 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>pl.net.ptak</groupId>
+  <artifactId>empty-project-with-dependency</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>prz</packaging>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>pl.net.ptak</groupId>
+        <artifactId>installshield-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <version>1.0-SNAPSHOT</version>
+        <configuration>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-asm</artifactId>
+          <version>3.0.6.RELEASE</version>
+      </dependency>
+  </dependencies>
+</project>
