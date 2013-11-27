@@ -1,1 +1,5 @@
-test 
+<?xml version="1.0" encoding="UTF-8"?>
+<SetupPrereq>
+	<execute file=""></execute>
+	<properties Id="{8A6AE6D7-49B6-4952-A569-9365AEAFAC2C}"></properties>
+</SetupPrereq>
