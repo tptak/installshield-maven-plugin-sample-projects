@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SetupPrereq>
-	<execute file=""></execute>
+	<files>
+		<file LocalFile=".\target\dependency\tomcat_zip\apache-tomcat-7.0.32\bin\catalina.bat" CheckSum="DFD7D7149493036F6C1AE52BC3D40A54" FileSize="0,13217"></file>
+		<file LocalFile=".\target\dependency\empty-project\DiskImages\DISK1\0x0409.ini" CheckSum="BE345D0260AE12C5F2F337B17E07C217" FileSize="0,22492"></file>
+		<file LocalFile=".\target\dependency\empty-project\DiskImages\DISK1\empty-project.msi" CheckSum="86E799A26AB7885C77EE854247A2519E" FileSize="0,375808"></file>
+		<file LocalFile=".\target\dependency\empty-project\DiskImages\DISK1\setup.exe" CheckSum="6D5D1FBB3FCC14F6E097745489A8F437" FileSize="0,1198080"></file>
+		<file LocalFile=".\target\dependency\empty-project\DiskImages\DISK1\Setup.ini" CheckSum="7482F2A3B696353360A27B3D1D6B3463" FileSize="0,5070"></file>
+	</files>
+	<execute file="catalina.bat"></execute>
 	<properties Id="{8A6AE6D7-49B6-4952-A569-9365AEAFAC2C}"></properties>
 </SetupPrereq>
