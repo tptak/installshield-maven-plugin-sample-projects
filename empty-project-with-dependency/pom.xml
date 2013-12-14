@@ -5,7 +5,7 @@
     <artifactId>empty-project-with-dependency</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>prz</packaging>
-    
+
     <parent>
         <groupId>pl.net.ptak</groupId>
         <artifactId>installshield-maven-plugin-sample-projects</artifactId>
@@ -20,9 +20,17 @@
                 <artifactId>installshield-maven-plugin</artifactId>
                 <extensions>true</extensions>
                 <configuration>
-                    <unzip>
-                        <dependency>com.googlecode.t7mp:tomcat</dependency>
-                    </unzip>
+                    <unzips>
+                        <unzip>
+                            <what>com.googlecode.t7mp:tomcat</what>
+                            <files>
+                                <includes>
+                                    <include>apache-tomcat-7.0.32/RUNNING.txt</include>
+                                </includes>
+                            </files>
+
+                        </unzip>
+                    </unzips>
                 </configuration>
             </plugin>
         </plugins>
